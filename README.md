@@ -1,0 +1,1 @@
+Add WDS, Hot Reload, "hexlet-pair"
