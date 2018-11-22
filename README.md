@@ -1,1 +1,1 @@
-Add WDS, Hot Reload, "hexlet-pair"
+Hot Module Replacement, WDS, Hot Reload, "hexlet-pair"
