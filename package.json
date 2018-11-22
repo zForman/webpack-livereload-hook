@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "webpack --mode development --watch",
     "build": "webpack --mode production",
-    "dev": "npm run watch & webpack-dev-server --content-base './' --mode development --hot"
+    "dev": "npm run watch & webpack-dev-server  --mode development --inline"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +16,8 @@
     "@babel/node": "^7.0.0",
     "@babel/preset-env": "^7.1.6",
     "babel-loader": "^8.0.4",
+    "clean-webpack-plugin": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.26.0",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
