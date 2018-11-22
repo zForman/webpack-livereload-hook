@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-!function(r){var t={};function n(e){if(t[e])return t[e].exports;var o=t[e]={i:e,l:!1,exports:{}};return r[e].call(o.exports,o,o.exports,n),o.l=!0,o.exports}n.m=r,n.c=t,n.d=function(r,t,e){n.o(r,t)||Object.defineProperty(r,t,{enumerable:!0,get:e})},n.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},n.t=function(r,t){if(1&t&&(r=n(r)),8&t)return r;if(4&t&&"object"==typeof r&&r&&r.__esModule)return r;var e=Object.create(null);if(n.r(e),Object.defineProperty(e,"default",{enumerable:!0,value:r}),2&t&&"string"!=typeof r)for(var o in r)n.d(e,o,function(t){return r[t]}.bind(null,o));return e},n.n=function(r){var t=r&&r.__esModule?function(){return r.default}:function(){return r};return n.d(t,"a",t),t},n.o=function(r,t){return Object.prototype.hasOwnProperty.call(r,t)},n.p="",n(n.s=1)}([function(r,t,n){"use strict";function e(r){return(e="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(r){return typeof r}:function(r){return r&&"function"==typeof Symbol&&r.constructor===Symbol&&r!==Symbol.prototype?"symbol":typeof r})(r)}Object.defineProperty(t,"__esModule",{value:!0}),t.toString=t.cdr=t.car=t.cons=t.checkPair=t.isPair=void 0;var o=function(r){return"function"==typeof r&&r.pair};t.isPair=o;var c=function(r){if(!o(r)){var t="object"===e(r)?JSON.stringify(r,null,2):String(r);throw new Error("Argument must be pair, but it was '".concat(t,"'"))}};t.checkPair=c;t.cons=function(r,t){var n=function(n){switch(n){case"car":return r;case"cdr":return t;default:throw new Error("Unknown message '".concat(n,"'"))}};return n.pair=!0,n};var u=function(r){return c(r),r("car")};t.car=u;var i=function(r){return c(r),r("cdr")};t.cdr=i;t.toString=function(r){c(r);return function r(t){if(!o(t))return String(t);var n=u(t),e=i(t);return"(".concat(r(n),", ").concat(r(e),")")}(r)}},function(r,t,n){"use strict";n.r(t);var e=n(0),o=Object(e.cons)(3,5);Object(e.car)(o),console.log(Object(e.cdr)(o)),console.log(Object(e.toString)(o))}]);
-=======
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	function hotDisposeChunk(chunkId) {
 /******/ 		delete installedChunks[chunkId];
@@ -67,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "ae923892848c8e0c0c48";
+/******/ 	var hotCurrentHash = "93aceb086aa04c5595b4";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -809,4 +806,3 @@ eval("// import { cons, car, cdr, toString } from 'hexlet-pairs'\n//\n// const f
 /***/ })
 
 /******/ });
->>>>>>> dev
