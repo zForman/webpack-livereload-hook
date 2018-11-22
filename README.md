@@ -1,6 +1,7 @@
 For install:
-1. npm i mywds
-2. npm install
+1. npm init
+2. npm i mywds
+3. npm install
 
 Contains watch, webpack-dev-server and Javascript require is defined
 
