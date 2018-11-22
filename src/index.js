@@ -1,10 +1,10 @@
-// import { cons, car, cdr, toString } from 'hexlet-pairs'
-//
-// const pair = cons(3, 5)
-// car(pair) // 3
-// console.log(cdr(pair))
-// toString(pair) // (3, 5)
+import { cons, car, cdr, toString } from 'hexlet-pairs'
 
-console.log('hell1o')
-let xss = 'ada'
-console.log(xss)
+const pair = cons(3, 5)
+car(pair) // 3
+console.log(cdr(pair))
+console.log(toString(pair)) // (3, 5)
+
+// console.log('hell1o')
+// let xss = 'asda'
+// console.log(xss)
