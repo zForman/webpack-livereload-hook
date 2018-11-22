@@ -1,1 +1,1 @@
-Hot Module Replacement, WDS, Hot Reload, "hexlet-pair"
+Javascript require is defined
