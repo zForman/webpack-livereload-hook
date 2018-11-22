@@ -1,10 +1,17 @@
-import { cons, car, cdr, toString } from 'hexlet-pairs'
-
-const pair = cons(3, 5)
-car(pair) // 3
-console.log(cdr(pair))
-console.log(toString(pair)) // (3, 5)
-
-// console.log('hell1o')
-// let xss = 'asda'
-// console.log(xss)
+// import { cons, car, cdr, toString } from 'hexlet-pairs'
+//
+// const findPrimitiveBox = () => {}
+//
+// const pair = cons(
+//     null,
+//     cons('one', 'two')
+// )
+// toString(findPrimitiveBox(pair)) // ('one', 'two')
+//
+// const pair2 = cons(
+//     cons(null, cons(1, 5)),
+//     null
+// )
+// // toString(findPrimitiveBox(pair2))
+let x = "aas"
+console.log(x)
